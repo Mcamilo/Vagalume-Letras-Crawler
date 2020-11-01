@@ -1,0 +1,18 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "description": "Ferramenta para montar a base de letras para a Hackathon Code-Stage Sony",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matheus Camilo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cheerio": "^1.0.0-rc.3",
+    "crawler": "^1.2.2",
+    "html-to-text": "^6.0.0",
+    "node-notifier": "^8.0.0"
+  }
+}
