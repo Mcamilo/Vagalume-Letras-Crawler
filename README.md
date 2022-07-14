@@ -22,6 +22,7 @@ A lista completa de gêneros pode ser obtida [aqui](https://www.vagalume.com.br/
 
 ```sh
 git clone https://github.com/Mcamilo/Vagalume-Letras-Crawler.git
+cd Vagalume-Letras-Crawler/
 npm install
 node index.js
 ```

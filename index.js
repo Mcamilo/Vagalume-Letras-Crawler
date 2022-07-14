@@ -1,18 +1,13 @@
-const notifier = require('node-notifier');
-const robots = {
-	crawlerVL:require('./robots/crawler.js'),
-	letraParser:require('./robots/parser.js')	
+const scripts = {
+	crawlerVL:require('./src/crawler.js'),
+	letraParser:require('./src/parser.js')	
 }
 
 async function start() {
 	
 	const genero = "bossa-nova"
-	await robots.crawlerVL(genero)
-	await robots.letraParser(genero)
-	notifier.notify({
-		title: 'Coletor de Letras',
-		message: 'Done!',		
-		sound: true
-	});
+	await scripts.crawlerVL(genero)
+	await scripts.letraParser(genero)
+
 }
 start()
